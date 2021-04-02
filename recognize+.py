@@ -3,9 +3,9 @@
 import cv2 as cv
 import numpy as np
 
-img = cv.imread("/home/kirill/Desktop/pythonproj/gowoard_.png")
-template = [cv.imread("/home/kirill/Desktop/pythonproj/pedestrain.png"), cv.imread("/home/kirill/Desktop/pythonproj/template_sample.png")]
-template_names = ['right', 'forward']
+img = cv.imread("YOUR IMAGE PATH")
+template = [cv.imread("YOUR TEMPLATE 1 PATH"), cv.imread("YOUR TEMPLATE 2 PATH")]
+template_names = ['YOUR TEMPLATE 1 NAME', 'YOUR TEMPLATE 2 NAME']
 
 def processing(image, lower_color, upper_color):
     
